@@ -1,0 +1,61 @@
+{
+    "data": {
+        "id": "chatcmpl-74pVOO0pXfDGGr66isoa3wbfbtgyl",
+        "object": "chat.completion",
+        "created": 1681385654,
+        "model": "gpt-3.5-turbo-0301",
+        "usage": {
+            "prompt_tokens": 20,
+            "completion_tokens": 18,
+            "total_tokens": 38
+        },
+        "choices": [
+            {
+                "message": {
+                    "role": "assistant",
+                    "content": "Hello! Welcome to the GPT completion API chat. How can I help you today?"
+                },
+                "finish_reason": "stop",
+                "index": 0
+            }
+        ]
+    },
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "cache-control": "no-cache, must-revalidate",
+        "content-type": "application/json"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "adapter": [
+            "xhr",
+            "http"
+        ],
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "Authorization": "Bearer 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"
+        },
+        "method": "post",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "data": "{\"model\":\"gpt-3.5-turbo\",\"messages\":[{\"role\":\"user\",\"content\":\"Hello! I'm new to chat GPT completion API!\"}],\"temperature\":0.7}"
+    },
+    "request": {}
+}
